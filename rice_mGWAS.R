@@ -2,6 +2,7 @@
 #multi-trait Manhattan plot for root microbiome beta diversity
 library(dplyr)
 library(data.table)
+library(rMVP)
 
 a = list.files(pattern = ".assoc.txt")                                     
 root.multi<-fread(a[1],header=T) 
